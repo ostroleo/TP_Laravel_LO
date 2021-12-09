@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::get('/ping', function () {
     return view('ping');
 });
+Route::get('/ping', ['App\Http\Controllers\PingPongControleur', 'ping']);
+
+Route::get('/pong', ['App\Http\Controllers\PingPongControleur', 'pong']);
 

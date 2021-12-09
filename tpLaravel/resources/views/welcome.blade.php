@@ -9,3 +9,4 @@
         <a href="https://github.com/laravel/laravel">GitHub</a>
     </div>
 @endsection
+
